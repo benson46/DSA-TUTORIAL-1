@@ -1,0 +1,60 @@
+📘 4. Memory Allocation & Memory Leak
+
+    🔹 Memory Allocation
+        In JavaScript, memory allocation refers to how the engine reserves memory to store data like variables, objects, arrays, etc.
+
+        There are two main types of memory allocation:
+
+            ✅ Static Memory Allocation (Compile Time)
+                Memory is allocated when the code is parsed (before execution).
+
+                Used for primitive types like number, string, boolean, null, undefined, and symbol.
+
+                These are fixed in size and stored in the stack.
+
+                let a = 10;      // statically allocated number
+                const b = "Hi";  // statically allocated string
+            
+            ✅ Dynamic Memory Allocation (Runtime)
+                Memory is allocated while the program is running.
+
+                Used for reference types like Object, Array, Function.
+
+                These are stored in the heap, and their size can grow or shrink.
+
+
+                let obj = { name: "John" }; // dynamically allocated object
+                let arr = [1, 2, 3];        // dynamically allocated array
+                📌 JavaScript uses automatic memory management via its garbage collector, but we still need to write code that allows memory to be freed properly.
+
+
+    🔹 Memory Leak 
+        A memory leak occurs when JavaScript keeps a reference to data that’s no longer needed, preventing the garbage collector from freeing that memory.
+
+        🧠 Common Causes of Memory Leaks in JS:
+
+            Unused global variables :
+            leak = []; // declared without let/const becomes global
+
+            Detached DOM elements :
+            let btn = document.getElementById("clickMe");
+            btn.remove();
+            // if we still hold a reference somewhere like:
+            window.leak = btn; // memory is not released
+
+            Closures holding large data :
+            function leakyFunction() {
+            let largeData = new Array(1000000).fill("leak");
+            return function() {
+                console.log(largeData[0]); // closure keeps reference
+            };
+            }
+
+
+        ✅ Solution:
+        Dereference unused objects by setting them to null.
+
+        Clean up event listeners or intervals using removeEventListener() and clearInterval().
+
+
+        ✅ In short: JS manages memory automatically, but it’s our job to avoid memory leaks by releasing references to things we no longer use.

@@ -1,0 +1,16 @@
+📘 Linear Search
+Linear Search is a simple algorithm that checks each element of a list (array) sequentially until it finds the target element or reaches the end of the list.
+
+        How it works:
+                Start from the first element.
+                Compare the target element with the current element.
+                If they match, return the index of the element.
+                If they don’t match, move to the next element and repeat until the target is found or the end of the list is reached.
+
+        Time Complexity:
+                Best case: O(1) (element found at the first position)
+
+                Worst case: O(n) (element is not in the list or at the end)
+
+
+

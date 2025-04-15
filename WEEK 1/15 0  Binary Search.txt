@@ -1,0 +1,14 @@
+📘 Binary Search
+Binary Search is an efficient algorithm used to search for an element in a sorted list by repeatedly dividing the search interval in half.
+
+    How it works:
+          Start with the middle element of the sorted list.
+          If the middle element is the target, return its index.
+          If the target is less than the middle element, narrow the search to the left half.
+          If the target is greater than the middle element, narrow the search to the right half.
+          Repeat the process on the new sublist until the target is found or the list is exhausted.
+
+    Time Complexity:
+        Best case: O(1) (element found at the middle)
+        Worst case: O(log n) (repeatedly halving the list)
+

@@ -1,0 +1,16 @@
+📘 9. Recursion
+A function calls itself to break down problems into sub-problems.
+
+    🔹 Types:
+            Head Recursion: Recursive call happens before processing the function.
+            Tail Recursion: Recursive call happens last (can be optimized)
+
+            Direct Recursion: A function calling itself is called direction
+            Indirect Recursion: A calls B → B calls A
+
+    🔹 Applications:
+            Backtracking (e.g., Sudoku, N-Queens)
+            Mathematical (Factorial, GCD, Fibonacci)
+            Divide & Conquer (Merge Sort, Quick Sort)
+            Graphs (DFS)
+            Trees (Traversal)

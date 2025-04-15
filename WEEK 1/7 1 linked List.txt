@@ -1,0 +1,32 @@
+📘 7. Linked List
+
+A Linked List is a linear data structure where each element (called a node) contains data and a reference (pointer) to the next node (and optionally, the previous node).
+
+    🔹 Types of Linked List
+            Singly Linked List: 
+                Each node has a data field and a next pointer.
+                Traversal is only in one direction (forward).
+
+            Doubly Linked List:
+                Each node has data, next, and prev pointers.
+                Traversal is possible in both directions (forward and backward).
+
+    🔹 Advantages of Linked List Over Array
+
+            Feature	        Array	                                Linked List
+            Size	        Fixed (set during declaration)	        Dynamic (can grow/shrink at runtime)
+            Memory	        Contiguous memory	                    Non-contiguous (scattered in heap)
+            Insertion	    Costly (shifting needed)	            Easy using pointers
+            Deletion	    Costly	                                Easy using pointers
+            Access Time	    O(1) random access	                    O(n), sequential only
+            Resizing	    Requires copying or reallocation	    Not needed
+
+
+    🔹 Applications of Linked Lists
+            Dynamic memory allocation
+            Undo/Redo functionality (using stack structure)
+            Browser history navigation
+            Polynomial arithmetic
+            Music/Photo viewer navigation
+            Implementation of stacks, queues, hash maps
+            Graphs (Adjacency lists)

@@ -1,0 +1,50 @@
+📘 5. Time & Space Complexity
+
+    🔹 Time Complexity
+        Time complexity is a way to measure how the runtime of an algorithm increases as the size of input increases.
+
+        ✅ It tells you:
+        "If my input gets bigger, how much slower will my code run?"
+
+        Common Time Complexities:
+
+        Complexity          | Name                  | Example Code Pattern                              | Behavior (as n grows)
+            O(1)            | Constant              | Accessing an element in an array arr[0]           | Always the same time
+            O(log n)        | Logarithmic           | Binary Search                                     | Fast even with big inputs
+            O(n)            | Linear                | Looping through an array                          | Time grows with input size
+            O(n log n)      | Linear Logarithmic    | Merge Sort, Quick Sort                            | Very efficient for sorting
+            O(n²)           | Quadratic             | Nested loops                                      | Slower as input grows
+            O(2ⁿ)           | Exponential           | Recursive Fibonacci without memoization           | Extremely slow
+            O(n!)           | Factorial             | Solving permutations / Traveling Salesman         | Impractical for big inputs
+
+
+        
+        💡 Quick Trick to Guess Time Complexity:
+
+            1 loop → O(n)
+
+            2 nested loops → O(n²)
+
+            Divide in half each time → O(log n)
+
+            Recursive function with multiple calls → likely exponential O(2ⁿ) or worse
+
+
+    🔹 Space Complexity
+            Space complexity is a way to measure how much extra memory an algorithm needs based on input size.
+
+            ✅ It answers:
+            "How much memory does my code use as the input grows?"
+
+            Examples:
+            Storing results in an array → O(n)
+            Using recursion → adds to call stack (memory usage)
+            Using no extra memory → O(1)
+
+            
+            Common Space Complexities:
+
+                Complexity          | Example
+                    O(1)            | Swapping variables in-place
+                    O(n)            | Using an array to store results
+                    O(n²)           | Using a 2D matrix

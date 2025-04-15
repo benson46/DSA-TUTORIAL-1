@@ -1,0 +1,14 @@
+Comparison between Linear and Binary Search:
+
+        Feature                 	Linear Search	                            Binary Search
+        Data Requirement	        Can be used on unsorted lists	            Requires sorted lists
+        Time Complexity	            O(n)	                                    O(log n)
+        Space Complexity	        O(1)	                                    O(1)
+        Efficiency	                Less efficient for large lists	            More efficient for large sorted lists
+
+        
+
+
+When to Use:
+Linear Search: Use when the list is unsorted or small.
+Binary Search: Use for large sorted lists, as it’s much faster.

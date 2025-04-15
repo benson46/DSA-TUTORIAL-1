@@ -1,0 +1,2 @@
+📘 10. Virtual Memory
+Virtual memory is a memory management technique where the system uses part of the hard drive as RAM, allowing programs to use more memory than what's physically available.

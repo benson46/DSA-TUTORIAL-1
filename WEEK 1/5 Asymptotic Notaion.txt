@@ -1,0 +1,37 @@
+📘 5. Asymptotic Notation
+
+🔹 What is Asymptotic Notation?
+Asymptotic notation describes the growth of time or space requirements in terms of input size n as it approaches infinity (very large).
+
+There are three main notations:
+
+
+    Notation	Symbol	    Case	                    Meaning
+    Big O	    O(f(n))	    Worst Case	        The maximum time or memory the algorithm will ever take for input size n.
+    Theta	    Θ(f(n))	    Average Case	    The exact or "tight" bound for typical input sizes.
+    Omega	    Ω(f(n))	    Best Case	        The minimum time or memory the algorithm could possibly use.
+
+        🔹 How to Remember:
+        O = "Oh no!" (worst case scenario) Big O
+        Θ = "Typical" (expected/average case) theta
+        Ω = "Oh yeah!" (best possible outcome) omega
+
+        Example: Binary Search
+
+        Best Case (Ω): Found in first try → Ω(1)
+
+        Average Case (Θ): Usually halves each time → Θ(log n)
+
+        Worst Case (O): Last element → O(log n)
+
+
+
+    🔹 Other Common Complexities & Their Meanings:
+
+    Notation        | Meaning
+    O(1)            | Constant time/memory
+    O(n)            | Linear growth
+    O(n log n)      | Very efficient algorithms
+    O(n²)           | Often from nested loops
+    O(2ⁿ)           | Exponential growth (very bad)
+    O(n!)           | Factorial growth (extremely bad)

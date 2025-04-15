@@ -1,0 +1,7 @@
+📘 3. Linear vs Non-Linear Data Structures
+
+        Type	            Description	                           Examples
+
+        Linear	        Data arranged sequentially	        Array, Linked List, Stack, Queue
+        
+        Non-Linear	    Hierarchical/graph structure	    Tree, Graph, Heap, Trie

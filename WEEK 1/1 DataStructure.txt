@@ -1,0 +1,11 @@
+📘 1. What is Data Structure & Algorithm?
+    🔹 Data Structure
+    A way to organize and store data so operations like insert, delete, and search can be done efficiently.
+    📌 Examples: Arrays, Linked Lists, Trees, Graphs
+
+        
+    🔹 Algorithm
+    A step by step solution  or instructions to solve a problem or perform a task.
+    📌 Examples: Searching, Sorting, Recursion, Graph Traversal
+
+

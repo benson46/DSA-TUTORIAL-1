@@ -1,0 +1,62 @@
+📘 8. Strings in JavaScript
+
+A string in JavaScript is a sequence of characters. JavaScript strings are immutable, meaning once created, their values cannot be changed directly.
+
+🔹 Key Operations:
+        Length:
+            Get the length of a string.
+                let str = "Hello";
+                console.log(str.length); // 5
+
+        Access Characters:
+            Access a character by index (zero-based).
+
+                let str = "Hello";
+                console.log(str[0]); // "H"
+
+        Concatenation:
+            Combine two strings.
+
+                let str1 = "Hello";
+                let str2 = "World";
+                console.log(str1 + " " + str2); // "Hello World"
+
+        Substring:
+            Extract part of the string.
+
+                let str = "Hello";
+                console.log(str.substring(1, 4)); // "ell"
+
+        Replace:
+            Replace part of the string.
+
+                let str = "Hello World";
+                console.log(str.replace("World", "JavaScript")); // "Hello JavaScript"
+
+        Trim:
+            Remove leading and trailing spaces.
+
+                let str = "   Hello   ";
+                console.log(str.trim()); // "Hello"
+
+        Split:
+            Split string into an array based on a separator.
+                let str = "apple,banana,cherry";
+                console.log(str.split(",")); // ["apple", "banana", "cherry"]
+
+        Uppercase & Lowercase:
+            Convert the string to upper or lower case.
+
+                let str = "Hello";
+                console.log(str.toUpperCase()); // "HELLO"
+                console.log(str.toLowerCase()); // "hello"
+
+
+🔹 Important Notes:
+
+Immutability: Strings can't be changed directly. Every modification creates a new string.
+Dynamic Length: JavaScript strings are dynamically sized.
+String Templates: Use backticks (`) for multi-line and embedded expressions.
+
+        let name = "John";
+        console.log(`Hello, ${name}!`); // "Hello, John!"

@@ -1,0 +1,2 @@
+📘 11. Memory Pool
+A memory pool is a pre-allocated block of memory that’s divided into smaller chunks and reused for efficient dynamic memory allocation.
