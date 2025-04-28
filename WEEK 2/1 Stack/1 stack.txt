@@ -1,0 +1,19 @@
+📌 What is a Stack?
+A stack is a linear data structure that follows LIFO (Last In, First Out). The last element inserted is the first to be removed.
+
+
+📌 Key Operations:
+stack.push(element);  // Insert at top
+stack.pop();          // Remove from top
+stack.peek();         // View top element
+stack.isEmpty();      // Check if empty
+stack.size();         // Number of elements
+
+
+Q. Where is Stack used in real life?
+
+    Undo operations in text editors
+    Browser history (back/forward)
+    Recursion / Function call stack
+    Expression evaluation
+

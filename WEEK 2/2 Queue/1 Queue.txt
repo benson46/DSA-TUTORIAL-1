@@ -1,0 +1,19 @@
+📌 What is a Queue?
+A queue is a linear data structure that follows FIFO (First In, First Out). The first inserted element is removed first.
+
+📌 Key Operations:
+    queue.enqueue(element);  // Add to rear
+    queue.dequeue();         // Remove from front
+    queue.peek();            // View front
+    queue.isEmpty();         // Check if empty
+    queue.size();            // Number of elements
+
+
+Q. Real-life applications of a queue?
+
+    Printer job queue
+    Call center phone system
+    OS process scheduling
+    Keyboard buffer
+
+
